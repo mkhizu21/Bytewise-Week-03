@@ -1,0 +1,70 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #19a1ad;
+  background-image: url(../images/bg-pattern-top.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.header {
+  background-image: url(../images/bg-pattern-card.svg);
+  height: 100px;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid white;
+  background-image: url(../images/image-victor.jpg);
+  margin: -40px auto 10px;
+}
+
+.info h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #333;
+}
+.info span {
+  font-weight: normal;
+  color: #777;
+}
+.info p {
+  margin: 5px 0 20px;
+  color: #777;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  background: #F1F1F1;
+}
+
+.stat h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+.stat p {
+  margin: 5px 0 0;
+  font-size: 12px;
+  color: #777;
+}/*# sourceMappingURL=main.min.css.map */

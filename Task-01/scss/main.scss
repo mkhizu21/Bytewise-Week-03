@@ -1,0 +1,87 @@
+$font-stack: Arial, Helvetica, sans-serif;
+$bg-color: #19a1ad;
+$card-bg: white;
+$card-shadow: rgba(0, 0, 0, 0.1);
+$text-color: #333;
+$secondary-color: #777;
+$border-radius: 10px;
+$profile-border-color: white;
+$stat-bg: #F1F1F1;
+
+* {
+    font-family: $font-stack;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: $bg-color;
+    background-image: url(../images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.card {
+    background: $card-bg;
+    border-radius: $border-radius;
+    box-shadow: 0 4px 8px $card-shadow;
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.header {
+    background-image: url(../images/bg-pattern-card.svg);
+    height: 100px;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid $profile-border-color;
+    background-image: url(../images/image-victor.jpg);
+    margin: -40px auto 10px;
+}
+
+.info {
+    h2 {
+        margin: 0;
+        font-size: 22px;
+        color: $text-color;
+    }
+    
+    span {
+        font-weight: normal;
+        color: $secondary-color;
+    }
+    
+    p {
+        margin: 5px 0 20px;
+        color: $secondary-color;
+    }
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background: $stat-bg;
+}
+
+.stat {
+    h3 {
+        margin: 0;
+        font-size: 18px;
+        color: $text-color;
+    }
+    
+    p {
+        margin: 5px 0 0;
+        font-size: 12px;
+        color: $secondary-color;
+    }
+}
